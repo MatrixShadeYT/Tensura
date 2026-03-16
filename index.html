@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tensura - MSYT</title>
+        <script type="module" src="./main.js" defer></script>
+        <style>
+            html, body {
+                background-color: black;
+                padding: 0;
+                margin: 0;
+            }
+            #assets {
+                display: none;
+            }
+            #game {
+                background-color: rgb(50,50,50);
+                transform: translate(-50%,-50%);
+                position: absolute;
+                display: block;
+                height: 70vh;
+                left: 50%;
+                top: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="assets"></div>
+        <canvas id="game">Your browser does not support the HTML5 canvas tag.</canvas>
+    </body>
+</html>
